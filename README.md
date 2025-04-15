@@ -3,7 +3,9 @@
 This repository contains a custom keymap for the GMMK Pro keyboard, modified from the [2Manchu/gmmk-pro-qmk](https://github.com/2Manchu/gmmk-pro-qmk) QMK firmware.
 
 ## Overview
-The keymap file (`aa_keymap.c`) is tailored for my personal use, based on 2Manchu's QMK configuration for the GMMK Pro. It includes a small change to make the rotary encoder compatible with Voicemeeter Banana's CTRL-F11/F12 Volume hook.
+The keymap file (`aa_keymap.c`) is tailored for my personal use, based on 2Manchu's QMK configuration for the GMMK Pro. It includes a small change to make the rotary encoder compatible with Voicemeeter Banana's CTRL-F11/F12 Volume hook: Menu - Shortcut Key (Hook) - Hook CTRL-F10,F11,F12 (For Level Output A2)
+
+The compiled bin (`gmmk_pro_rev1_ansi_aa.bin`) is provided for convenience if you want to flash direct. Use at your own risk.
 
 ## Modifications
 - Changed rotary encoder left/right to be CTRL-F11 and CTRL-F12
