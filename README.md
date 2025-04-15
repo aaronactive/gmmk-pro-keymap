@@ -3,11 +3,12 @@
 This repository contains a custom keymap for the GMMK Pro keyboard, modified from the [2Manchu/gmmk-pro-qmk](https://github.com/2Manchu/gmmk-pro-qmk) QMK firmware.
 
 ## Overview
-The keymap file (`keymap.c` or specify filename) is tailored for my personal use, based on 2Manchu's QMK configuration for the GMMK Pro. It includes customizations such as [briefly describe your changes, e.g., "remapped keys for gaming, added RGB controls, or optimized for macOS"].
+The keymap file (`aa_keymap.c`) is tailored for my personal use, based on 2Manchu's QMK configuration for the GMMK Pro. It includes a small change to make the rotary encoder compatible with Voicemeeter Banana's CTRL-F11/F12 Volume hook.
 
 ## Modifications
-- Changed rotary encoder left/right to be CTRL-F11 and CTRL-F12 - As part of Voicemeeter's hook. Mute can't be changed by the looks of it due to how the RGB controls are setup
-  
+- Changed rotary encoder left/right to be CTRL-F11 and CTRL-F12
+- Default layout otherwise besides PrtScr is Home.
+    
 ## Usage
 1. Clone this repository or download the keymap file.
 2. Place the keymap file in the appropriate directory of your QMK firmware fork (e.g., `qmk_firmware/keyboards/gmmk/pro/keymaps/your_keymap_name`).
@@ -21,4 +22,3 @@ The keymap file (`keymap.c` or specify filename) is tailored for my personal use
 ## Notes
 - This keymap is specific to my setup and may require adjustments for other configurations.
 - For the full QMK context or to sync with upstream changes, refer to 2Manchu’s original repository.
-- Licensed under the same terms as the original project (typically GPL-2.0 for QMK
